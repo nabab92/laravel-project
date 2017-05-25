@@ -11,8 +11,8 @@
 |
 */
 
-Route::group(['domain' => '{account}.digitalcum.com'], function () {
-    Route::get('user/{id}', function ($account, $id) {
+Route::group(['domain' => '{admin}.digitalcum.com'], function () {
+    Route::get('user/{id}', function ($admin, $id) {
         return 'Nabab';
     });
 });
