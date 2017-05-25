@@ -13,7 +13,7 @@
 
 Route::group(['domain' => '{account}.digitalcum.com'], function () {
     Route::get('user/{id}', function ($account, $id) {
-        //
+        return 'Nabab';
     });
 });
 
